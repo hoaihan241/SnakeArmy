@@ -158,13 +158,13 @@ SnakeArmy/
 ##  4. Chi tiết Gameplay 2 Giai Đoạn
 
 ```
-┌────────────────────────────────┐      ┌────────────────────────────────┐      ┌────────────────────────────────┐
-│      PHASE 1: GATHERING        │ 90s  │        PHASE 2: CLASH          │ Auto │       PHASE 3: RESULT          │
-│ - Chọn tướng (Tiên Phong/Quân Sư/Hộ Quốc)  - Hợp nhất quân dắt theo & kho  - Huy hiệu Hoàng Gia hiển thị
-│ - Gom lính tự do, né bom, né rồng  ├─────►│ - Diễu binh dàn trận (2.4s)    ├─────►│ - Bảng thống kê chi tiết 2 phe
-│ - Cướp lính & Dùng Tuyệt Kỹ    │      │ - Xung phong đọ kiếm giáp lá cà│      │ - Nút Tái Chiến / Menu Chính   │
-│ - Gửi quân an toàn vào Căn Cứ  │      │ - Kéo co Tug-of-War theo nhịp  │      │ - Lồng tiếng khải hoàn         │
-└────────────────────────────────┘      └────────────────────────────────┘      └────────────────────────────────┘
+┌────────────────────────────────────┐      ┌────────────────────────────────┐      ┌────────────────────────────────┐
+│      PHASE 1: GATHERING            │ 90s  │        PHASE 2: CLASH          │ Auto │       PHASE 3: RESULT          │
+│ - Chọn tướng                       │      │ - Hợp nhất quân dắt theo & kho │      │ - Huy hiệu Hoàng Gia hiển thị  │
+│ - Gom lính tự do, né bom, né rồng  ├─────►│ - Diễu binh dàn trận (2.4s)    ├─────►│ - Bảng thống kê chi tiết 2 phe │
+│ - Cướp lính & Dùng Tuyệt Kỹ        │      │ - Xung phong đọ kiếm giáp lá cà│      │ - Nút Tái Chiến / Menu Chính   │
+│ - Gửi quân an toàn vào Căn Cứ      │      │ - Kéo co Tug-of-War theo nhịp  │      │ - Lồng tiếng khải hoàn         │
+└────────────────────────────────────┘      └────────────────────────────────┘      └────────────────────────────────┘
 ```
 
 ### 4.1. Binh chủng lính sa trường

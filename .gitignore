@@ -3,5 +3,4 @@
 *.obj
 bin/
 build/
-.vscode/
-coder_agent.py
+.vscode

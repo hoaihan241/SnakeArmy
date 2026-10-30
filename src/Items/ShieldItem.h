@@ -1,10 +1,13 @@
 #pragma once
 #include "Item.h"
+
+// ================================================================
+//  ShieldItem – Khiên Bảo Vệ
+//  applyBuff: Bật isInvincible trong 4 giây
+//  Thành viên 5
+// ================================================================
 class ShieldItem : public Item {
-private: sf::CircleShape shape;
 public:
     ShieldItem(float startX, float startY);
-    void update(float dt) override;
-    void draw(sf::RenderWindow& window) override;
     void applyBuff(Character* target) override;
 };

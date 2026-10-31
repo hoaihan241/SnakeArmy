@@ -9,7 +9,11 @@ echo ========================================================
 if not exist bin mkdir bin
 
 echo [*] Dang bien dich toan bo ma nguon C++17...
-g++ -std=c++17 src\*.cpp src\Core\*.cpp src\Entities\*.cpp src\DataStructures\*.cpp src\Items\*.cpp src\Events\*.cpp -o bin\main.exe -I C:\sfml\include -L C:\sfml\lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -mwindows
+if exist "C:\sfml\include" (
+    g++ -std=c++17 src\*.cpp src\Core\*.cpp src\Entities\*.cpp src\DataStructures\*.cpp src\Items\*.cpp src\Events\*.cpp -o bin\main.exe -I C:\sfml\include -L C:\sfml\lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -mwindows
+) else (
+    g++ -std=c++17 src\*.cpp src\Core\*.cpp src\Entities\*.cpp src\DataStructures\*.cpp src\Items\*.cpp src\Events\*.cpp -o bin\main.exe -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -mwindows
+)
 
 if %ERRORLEVEL% EQU 0 (
     echo.

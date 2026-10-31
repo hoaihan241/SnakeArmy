@@ -1,2 +1,3 @@
 #include "GameObject.h"
-// Lớp cơ sở thuần ảo, không cần logic cpp
+// GameObject — Lớp trừu tượng, không có implementation riêng
+// Tất cả hàm đều inline trong header hoặc pure virtual
